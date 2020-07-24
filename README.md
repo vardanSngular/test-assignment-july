@@ -2,6 +2,8 @@
 
 ### The Solution consists of Backend and Frontend.
 
+### Due to the simplicity of the App, i used Context instead of Redux (which was required). There is just nowhere to showcase any knowledge of that tool.
+
 ### Pages: Register/Login - Dashboard/Settings.
 
 ### ERROR handling: Wrong username/password
