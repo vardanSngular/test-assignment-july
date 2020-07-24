@@ -3,11 +3,6 @@ import Navigation from "../../containers/Navigation/Navigation";
 import Dashboard from "../../containers/Dashboard/Dashboard";
 import Settings from "../../containers/Settings/Settings";
 
-interface State {
-  dashboard: string;
-  settings: boolean;
-}
-
 const Home = () => {
   const tabs = ["dashboard", "settings"];
 
