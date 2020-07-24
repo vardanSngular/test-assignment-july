@@ -1,0 +1,20 @@
+.Login--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8rem;
+
+  &--form {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+
+    &--inputContainer {
+      display: flex;
+      flex-direction: column;
+    }
+    &--buttonContainer {
+      display: flex;
+    }
+  }
+}

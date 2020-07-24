@@ -1,0 +1,20 @@
+.Button{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 0.3rem;
+    margin: 0.3rem;
+    color: #07b56b;
+    width: 100%;
+    cursor: pointer;
+    font-size: 0.8rem;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+
+    &.disabled{
+        opacity: 0.4;
+    }
+}
