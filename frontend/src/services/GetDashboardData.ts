@@ -9,8 +9,6 @@ interface ReturnType {
 
 const GetDashboardData = async ({ token }: Params): Promise<ReturnType> => {
   try {
-    console.log("GET dashboard");
-
     const res = await fetch("http://localhost:4000/dashboard", {
       method: "GET",
       headers: {

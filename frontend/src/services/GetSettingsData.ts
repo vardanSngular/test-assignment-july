@@ -9,8 +9,6 @@ interface ReturnType {
 
 const GetSettingsData = async ({ token }: Params): Promise<ReturnType> => {
   try {
-    console.log("GET settings");
-
     const res = await fetch("http://localhost:4000/settings", {
       method: "GET",
       headers: {

@@ -23,9 +23,7 @@ const Dashboard = ({ history }: Props) => {
       }
     };
 
-    const isDashboardDataExist = Object.keys(dashboardData).length;
-
-    if (!isDashboardDataExist) getDashboardData();
+    if (!dashboardData) getDashboardData();
   }, []);
 
   return <div className='Dashboard--container'>{dashboardData}</div>;

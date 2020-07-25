@@ -22,9 +22,7 @@ const Settings = ({ history }: Props) => {
       }
     };
 
-    const isSettingsDataExist = Object.keys(settingsData).length;
-
-    if (!isSettingsDataExist) getSettingsData();
+    if (!settingsData) getSettingsData();
   }, []);
 
   return <div className='Settings--container'>{settingsData}</div>;
